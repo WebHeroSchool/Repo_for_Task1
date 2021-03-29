@@ -1,13 +1,13 @@
-.menu__ahref {
+.menu__item {
    font-family: Roboto, arial, sans-serif;
 }
-.section_p {
+.main_text {
    font-family: Roboto, arial, sans-serif;
 }
-.section_button{
+.main_button{
   font-family: Roboto, arial, sans-serif;
 }
-.section_h1{
+.main_title{
    font-family: "PT Serif", sans-serif, arial;
 }
 .header__logo{
