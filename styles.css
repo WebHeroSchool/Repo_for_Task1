@@ -1,37 +1,47 @@
-.menu__item {
-   font-family: Roboto, arial, sans-serif;
-}
-.main-content__descrip {
-   font-family: Roboto, arial, sans-serif;
-}
-.main-content__button{
-  font-family: Roboto, arial, sans-serif;
-}
-.main-content__title{
-   font-family: "PT Serif", sans-serif, arial;
-}
-.logo{
-   font-family: "PT Serif", sans-serif, arial;
-}
 .wrapper {
   width: 80%;
   margin: auto;
   border: dashed 1px red;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
 }
-.logo{
+
+.logo {
+  font-family: "PT Serif", sans-serif, arial;
+}
+
+.logo {
   padding: 40px 0px;
 }
-.menu{
+
+.menu__item {
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.main-content__descrip {
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.main-content__button {
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.main-content__title {
+  font-family: "PT Serif", sans-serif, arial;
+}
+
+.menu {
   display: flex;
   align-items: center;
 }
-.menu__item{
+
+.menu__item {
   padding: 0px 13px;
 }
-.menu__item:last-child{
+
+.menu__item:last-child {
   padding-right: 0;
 }
