@@ -24,6 +24,13 @@ line-height: 31px; */
 
 .menu__item {
   font-family: "Roboto", arial, sans-serif;
+  padding: 0 13px;
+  color: #000;
+  text-decoration: none;
+}
+.menu__item_active::after {
+  display: block;
+  content: '';
 }
 
 .main-content__descrip {
