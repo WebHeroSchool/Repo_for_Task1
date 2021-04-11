@@ -8,7 +8,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 106px;
 }
 
 .logo {
@@ -26,10 +26,9 @@
 
 .menu__item {
   position: relative;
-  margin-right: 24px;
-  font-family: "Roboto", arial, sans-serif;
-  font-weight: normal;
-  font-size: 18px;
+  margin-right: 22px;
+  font: 20px "Roboto", arial, sans-serif;
+
   color: #000;
   text-decoration: none;
 }
@@ -81,14 +80,14 @@
 }
 
 .main {
-  padding: 35px 58% 100px 0;
-  background: top right no-repeat url('img/Frame.svg');
+  padding: 35px 58% 171px 0;
+  background: 99% no-repeat url('img/Frame.svg');
 }
 
 .main__descrip {
   font-family: "Roboto", arial, sans-serif;
-  margin-top: 35px;
-  margin-bottom: 55px;
+  margin-top: 34px;
+  margin-bottom: 59px;
   max-width: 440px;
   font-weight: normal;
   font-size: 22px;
@@ -114,15 +113,9 @@
   font-family: 'pt_serifbold', arial, sans-serif;
   font-weight: bold;
   font-size: 66px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
-
-
 
 .main__title-text_highlight {
   background: #ecf3ff;
-}
-
-*{
-  border: dashed 1px red;
 }
