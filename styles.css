@@ -28,7 +28,6 @@
   position: relative;
   margin-right: 22px;
   font: 20px "Roboto", arial, sans-serif;
-
   color: #000;
   text-decoration: none;
 }
@@ -80,7 +79,7 @@
 }
 
 .main {
-  padding: 35px 58% 171px 0;
+  padding: 34px 58% 171px 2px;
   background: 99% no-repeat url('img/Frame.svg');
 }
 
@@ -95,9 +94,9 @@
 
 .main__button {
   display: inline-inline-block;
-  font-family: "Roboto", arial, sans-serif;
-  font-size: 18px;
-  color: fff;
+  font: 18px "Roboto", arial, sans-serif;
+  color: #fff;
+  margin-top: 80px;
   background: #0056ec;
   padding: 18px 30px;
   text-decoration: none;
@@ -117,5 +116,12 @@
 }
 
 .main__title-text_highlight {
-  background: #ecf3ff;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
+}
+
+.img__pnt {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
