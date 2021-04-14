@@ -130,16 +130,16 @@
 
 @media (max-width: 1366px) {
 
-.wrapper {
-  width: 80%;
-}
+  .wrapper {
+    width: 80%;
+  }
 
-.header {
-  margin: 38px 0px 33px 80px;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
+  .header {
+    margin: 38px 0px 33px 80px;
+    padding: 2px 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
 
 .menu {
   display: flex;
