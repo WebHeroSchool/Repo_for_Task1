@@ -273,7 +273,7 @@
 }
 /* скрываем чекбокс */
 #menu__toggle {
-  opacity: 0;
+  display: none;
 }
 
 .menu__btn {
