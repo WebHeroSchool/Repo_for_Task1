@@ -129,7 +129,6 @@
 }
 
 @media (max-width: 1366px) {
-
   .wrapper {
     width: 80%;
   }
@@ -149,7 +148,7 @@
 
   .menu__item {
     position: relative;
-    font: 15px "Roboto", arial, sans-serif;
+    font: 14px "Roboto", arial, sans-serif;
     color: #000;
     text-decoration: none;
   }
@@ -196,7 +195,6 @@
 }
 
 @media (max-width: 1024px) {
-
   .header {
     margin: 38px 0 33px -53px;
     padding: 0;
@@ -218,7 +216,6 @@
   .main {
     background: right center no-repeat url('img/Frame1024.svg');
     padding: 78px 45% 150px 1px;
-    /* font: bold 39px/60px pt_serifregular, arial, helvetica; */
   }
 
   .main__title {
@@ -255,7 +252,6 @@
 }
 
 @media (max-width: 768px) {
-
   .header {
     margin: 24px 0 33px 0;
     padding: 0;
@@ -345,7 +341,7 @@
     transform: rotate(45deg);
   }
 
-  #menu__toggle:checked ~ .menu__btn> span::before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
