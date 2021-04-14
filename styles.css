@@ -99,7 +99,6 @@
   display: inline-inline-block;
   font: 18px "Roboto", arial, sans-serif;
   color: #fff;
-
   background: #0056ec;
   padding: 18px 30px;
   text-decoration: none;
@@ -133,63 +132,63 @@
 @media (max-width: 1366px) {
 
 .header {
-  margin: 36px 0px 33px 80px;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
+margin: 36px 0px 33px 80px;
+padding: 0;
+display: flex;
+justify-content: space-between;
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  margin: 8px 79px 0 0;
+display: flex;
+align-items: center;
+margin: 8px 79px 0 0;
 }
 
 .menu__item {
-  position: relative;
-  font: 16px "Roboto", arial, sans-serif;
-  color: #000;
-  text-decoration: none;
+position: relative;
+font: 16px "Roboto", arial, sans-serif;
+color: #000;
+text-decoration: none;
 }
 
 .main {
-  background: center right 13% no-repeat url('img/Frame1366.svg');
-  padding: 78px 45% 140px 80px;
+background: center right 13% no-repeat url('img/Frame1366.svg');
+padding: 78px 45% 140px 80px;
 }
 
 .main__descrip {
-  font: 18px/20px "Roboto", arial, helvetica;
-  margin-top: 48px;
-  margin-bottom: 55px;
-  max-width: 380px;
-  letter-spacing: 0;
+font: 18px/20px "Roboto", arial, helvetica;
+margin-top: 48px;
+margin-bottom: 55px;
+max-width: 380px;
+letter-spacing: 0;
 }
 
 .main__button {
-  display: inline-inline-block;
-  font: 14px "Roboto", arial, sans-serif;
-  color: #fff;
-  background: #0056ec;
-  padding: 14px 21px;
-  margin-left: 2px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: opacity 0.5s;
-  letter-spacing: 0;
+display: inline-inline-block;
+font: 14px "Roboto", arial, sans-serif;
+color: #fff;
+background: #0056ec;
+padding: 14px 21px;
+margin-left: 2px;
+text-decoration: none;
+border-radius: 4px;
+transition: opacity 0.5s;
+letter-spacing: 0;
 }
 
 .main__title {
-  margin-top: 35px;
-  font: bold  50px/60px pt_serifregular, arial, helvetica;
-  letter-spacing: 1px;
-  max-width: 490px;
+margin-top: 35px;
+font: bold  50px/60px pt_serifregular, arial, helvetica;
+letter-spacing: 1px;
+max-width: 490px;
 }
 
 .img__pnt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 115px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 115px;
 }
 }
 
@@ -253,6 +252,7 @@
 }
 
 @media(max-width: 768px) {
+
 .menu {
   display: none;
 }
@@ -362,7 +362,6 @@
   border-radius: 4px;
   letter-spacing: 0px;
   margin-left: 0;
-
   /*font: 450 14px/16px "Roboto", arial, helvetica;
   width: 22px;
   height: 12px;*/
