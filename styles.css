@@ -134,7 +134,7 @@
   }
 
   .header {
-    margin: 38px 0 33px 77px;
+    margin: 39px 0 38px 77px;
     padding: 2px 0 0;
     display: flex;
     justify-content: space-between;
@@ -156,18 +156,18 @@
 
   .main {
     background: center right 13% no-repeat url('img/Frame1366.svg');
-    padding: 72px 45% 140px 78px;
+    padding: 72px 45% 140px 77px;
   }
 
   .main__title {
     margin-top: 35px;
-    font: bold 50px 'pt_serifbold', arial, helvetica;
+    font: bold 50px 'pt_serifbold', arial, helvetica, sans-serif;
     letter-spacing: 0;
     max-width: 490px;
   }
 
   .main__descrip {
-    font: 18px "Roboto"!important; arial, helvetica;
+    font: 18px "Roboto", arial, helvetica, sans-serif;
     margin-top: 32px;
     margin-bottom: 53px;
     max-width: 380px;
@@ -229,7 +229,7 @@
   }
 
   .main__descrip {
-    font: 18px/20px "Roboto", arial, helvetica;
+    font: 18px/20px "Roboto", arial, helvetica, sans-serif;
     margin-top: 48px;
     margin-bottom: 52px;
     margin-left: -53px;
@@ -361,14 +361,14 @@
   .main__title {
     margin-top: 28px;
     padding-left: 49px;
-    font: bold 32px pt_serifregular, arial, helvetica;
+    font: bold 32px pt_serifregular, arial, helvetica, sans-serif;
     letter-spacing: 0;
   }
 
   .main__descrip {
     margin-bottom: 36px;
     max-width: 240px;
-    font: 500 16px "Roboto", arial, helvetica;
+    font: 500 16px "Roboto", arial, helvetica, sans-serif;
     margin-left: 26px;
     margin-top: 31px;
   }
