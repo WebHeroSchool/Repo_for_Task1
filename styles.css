@@ -143,12 +143,12 @@
   .menu {
     display: flex;
     align-items: center;
-    margin: 9px 82px 0 0;
+    margin: 9px 81px 0 0;
   }
 
   .menu__item {
     position: relative;
-    font: bold 14px "Roboto", arial, sans-serif;
+    font: bold 15px "Roboto", arial, sans-serif;
     color: #000;
     text-decoration: none;
     padding-top: 2px;
@@ -160,7 +160,7 @@
   }
 
   .main__descrip {
-    font: 18px/20px "Roboto", arial, helvetica;
+    font: 18px "Roboto", arial, helvetica;
     margin-top: 48px;
     margin-bottom: 55px;
     max-width: 380px;
@@ -182,7 +182,7 @@
 
   .main__title {
     margin-top: 35px;
-    font: bold  50px/60px pt_serifregular, arial, helvetica;
+    font: bold  50px pt_serifregular, arial, helvetica;
     letter-spacing: 1px;
     max-width: 490px;
   }
@@ -360,14 +360,14 @@
   .main__title {
     margin-top: 28px;
     padding-left: 49px;
-    font: bold 32px/39px pt_serifregular, arial, helvetica;
+    font: bold 32px pt_serifregular, arial, helvetica;
     letter-spacing: 0;
   }
 
   .main__descrip {
     margin-bottom: 36px;
     max-width: 240px;
-    font: 500 16px/19px "Roboto", arial, helvetica;
+    font: 500 16px "Roboto", arial, helvetica;
     margin-left: 26px;
     margin-top: 31px;
   }
