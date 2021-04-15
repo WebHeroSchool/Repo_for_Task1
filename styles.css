@@ -4,23 +4,25 @@
 }
 
 .header {
-  padding: 39px 0 41px 1px;
+  padding: 0 0 2px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 111px;
+  margin-bottom: 150px;
 }
 
 .logo {
-  width: 190px;
-  height: 35px;
-  margin-left: 0;
-  background: url('img/logo.svg');
+  display: inline-block;
+  width: 191px;
+  height: 32px;
+  margin-top: 40px;
+  margin-left: 1px;
+  background: top right no-repeat url('img/logo.svg');
 }
 
 .menu {
   display: flex;
   align-items: center;
-  margin: 7px 2px 0 0;
+  margin: 45px 2px 0 0;
 }
 
 #menu__toggle {
@@ -134,7 +136,7 @@
   }
 
   .header {
-    margin: 38px 0 33px 77px;
+    margin: 0 0 38px 77px;
     padding: 2px 0 0;
     display: flex;
     justify-content: space-between;
@@ -143,25 +145,36 @@
   .menu {
     display: flex;
     align-items: center;
-    margin: 9px 82px 0 0;
+    margin: 46px 81px 0 0;
   }
 
   .menu__item {
     position: relative;
-    font: bold 14px "Roboto", arial, sans-serif;
+    font: bold 15px "Roboto", arial, sans-serif;
     color: #000;
     text-decoration: none;
     padding-top: 2px;
   }
 
+  .menu__item:last-child {
+    margin-right: -3px;
+  }
+
   .main {
     background: center right 13% no-repeat url('img/Frame1366.svg');
-    padding: 78px 45% 140px 80px;
+    padding: 72px 45% 140px 77px;
+  }
+
+  .main__title {
+    margin-top: 30px;
+    font: bold 50px 'pt_serifbold', arial, helvetica, sans-serif;
+    letter-spacing: 0;
+    max-width: 490px;
   }
 
   .main__descrip {
-    font: 18px/20px "Roboto", arial, helvetica;
-    margin-top: 48px;
+    font: 18px "Roboto", arial, helvetica, sans-serif;
+    margin-top: 32px;
     margin-bottom: 55px;
     max-width: 380px;
     letter-spacing: 0;
@@ -173,44 +186,48 @@
     color: #fff;
     background: #0056ec;
     padding: 14px 21px;
-    margin-left: 2px;
+    margin-left: 0;
+    margin-right: 5px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
     letter-spacing: 0;
   }
 
-  .main__title {
-    margin-top: 35px;
-    font: bold  50px/60px pt_serifregular, arial, helvetica;
-    letter-spacing: 1px;
-    max-width: 490px;
-  }
-
   .img__pnt {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 21px;
   }
 }
 
 @media (max-width: 1024px) {
+  .wrapper {
+    width: 92%;
+  }
+
   .header {
-    margin: 38px 0 33px -53px;
+    margin: 0 0 33px 3px;
     padding: 0;
   }
 
   .menu {
     display: flex;
     align-items: center;
-    margin: 8px -55px 0 0;
+    margin: 48px 11px 0 0;
   }
 
   .menu__item {
     position: relative;
-    font: 15px "Roboto", arial, sans-serif;
+    font: bold 14px "Roboto", arial, sans-serif;
     color: #000;
     text-decoration: none;
+    padding-right: 2.4px;
+  }
+
+  .menu__item:last-child {
+    margin-right: -3px;
   }
 
   .main {
@@ -219,21 +236,20 @@
   }
 
   .main__title {
-    font: bold 50px/62px 'pt_serifbold', arial, sans-serif;
+    font: bold 50px/64px 'pt_serifbold', arial, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-left: -53px;
     margin-top: 30px;
+    margin-left: 2px;
     letter-spacing: 0;
   }
 
   .main__descrip {
-    font: 18px/20px "Roboto", arial, helvetica;
-    margin-top: 48px;
-    margin-bottom: 52px;
-    margin-left: -53px;
+    font: 18px/20px "Roboto", arial, helvetica, sans-serif;
+    margin-top: 41px;
+    margin-bottom: 58px;
     max-width: 380px;
-    letter-spacing: 0;
+    letter-spacing: 0.2px;
   }
 
   .main__button {
@@ -241,24 +257,35 @@
     font: 14px "Roboto", arial, sans-serif;
     color: #fff;
     background: #0056ec;
-    padding: 15px 20px;
-    margin-left: -55px;
+    padding: 14px 20px;
+    margin-left: 3px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
-    letter-spacing: 0;
+    letter-spacing: 0.1px;
+  }
+
+  .img__pnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 11px;
   }
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+    width: 79%;
+  }
+
   .header {
-    margin: 24px 0 33px 0;
+    margin: 22px 0 33px 0;
     padding: 0;
   }
 
   .logo {
     margin-left: -15px;
-    margin-top: -2px;
+    margin-top: 2px;
     background: no-repeat url('img/logosmall.svg');
   }
 
@@ -305,13 +332,13 @@
     display: block;
     flex-direction: column;
     position: fixed;
-    visibility: hidden;
+    visibility: visible;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 175px 0;
     list-style: none;
     text-align: center;
     background-color: #e5e5e5;
@@ -325,6 +352,10 @@
     color: #333;
     font: 600 30px/35px 'Roboto', sans-serif;
     text-decoration: none;
+  }
+
+  .menu__item:last-child {
+    margin-bottom: -5px;
   }
 
   .menu__item:hover {
@@ -353,23 +384,24 @@
   .main {
     text-align: center;
     padding: 76% 0 2px 4px;
-    background-size: 88%;
+    background-size: 92%;
     background-position: top center;
   }
 
   .main__title {
-    margin-top: 28px;
-    padding-left: 49px;
-    font: bold 32px/39px pt_serifregular, arial, helvetica;
+    margin-top: 32px;
+    padding-left: 1px;
+    font: bold 32px pt_serifregular, arial, helvetica, sans-serif;
     letter-spacing: 0;
   }
 
   .main__descrip {
     margin-bottom: 36px;
-    max-width: 240px;
-    font: 500 16px/19px "Roboto", arial, helvetica;
-    margin-left: 26px;
+    max-width: 250px;
+    font: 500 16px "Roboto", arial, helvetica, sans-serif;
+    margin-left: 22px;
     margin-top: 31px;
+    letter-spacing: 0.1px;
   }
 
   .main__button {
