@@ -161,17 +161,15 @@
 
   .main__title {
     margin-top: 35px;
-    font: 50px 'pt_serifbold', arial, helvetica;
+    font: bold 50px 'pt_serifbold', arial, helvetica;
     letter-spacing: 0;
     max-width: 490px;
-    border: dashed 1px red;
   }
 
   .main__descrip {
-    border: dashed 1px red;
     font: 18px "Roboto", arial, helvetica;
-    margin-top: 30px;
-    margin-bottom: 51px;
+    margin-top: 32x;
+    margin-bottom: 53px;
     max-width: 380px;
     letter-spacing: 0;
   }
@@ -183,19 +181,17 @@
     background: #0056ec;
     padding: 14px 21px;
     margin-left: -4px;
-    margin-top: 31px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
     letter-spacing: 0;
-      border: dashed 1px red;
   }
 
   .img__pnt {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: dashed 1px red;
+    padding-top: 22px;
   }
 }
 
