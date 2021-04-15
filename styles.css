@@ -167,8 +167,8 @@
   }
 
   .main__descrip {
-    font: 18px "Roboto", arial, helvetica;
-    margin-top: 32x;
+    font: 18px "Roboto"!important; arial, helvetica;
+    margin-top: 32px;
     margin-bottom: 53px;
     max-width: 380px;
     letter-spacing: 0;
