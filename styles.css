@@ -4,7 +4,7 @@
 }
 
 .header {
-  padding: 0 0 2px 0;
+  padding: 0 0 4px 0;
   display: flex;
   justify-content: space-between;
   margin-bottom: 150px;
@@ -13,7 +13,7 @@
 .logo {
   display: inline-block;
   width: 191px;
-  height: 32px;
+  height: 36px;
   margin-top: 40px;
   margin-left: 1px;
   background: top right no-repeat url('img/logo.svg');
