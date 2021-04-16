@@ -21,15 +21,16 @@
 
 @keyframes blow {
   0% {
-   opacity: 0%
+    opacity: 0%
   }
+
   100% {
     opacity: 100%
   }
 }
 
 .main__title {
-  animation: blow .8s  cubic-bezier(0.5, 0.2, 0.3, 1.0);
+  animation: blow .8s  cubic-bezier(.5, .2, .3, 1.0);
   animation-iteration-count: 1;
 }
 
@@ -98,8 +99,20 @@
 }
 
 .main {
-  padding: 34px 58% 171px 2px;
+  padding: 34px 58% 161px 2px;
   background: 99% no-repeat url('img/Frame.svg');
+}
+
+.main__title {
+  font-family: 'pt_serifbold', arial, sans-serif;
+  font-weight: bold;
+  font-size: 66px;
+  margin-bottom: 20px;
+  margin-top: 46px;
+}
+
+.main__title-text_highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
 }
 
 .main__descrip {
@@ -113,7 +126,7 @@
 
 @keyframes radial-pulse {
   0% {
-    box-shadow: 0 0 0 0px rgba(155,187,253);
+    box-shadow: 0 0 0 0 rgba(155,187,253);
   }
 
   100% {
@@ -137,22 +150,11 @@
   opacity: 0.5s;
 }
 
-.main__title {
-  font-family: 'pt_serifbold', arial, sans-serif;
-  font-weight: bold;
-  font-size: 66px;
-  margin-bottom: 20px;
-}
-
-.main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
-}
-
 .img__pnt {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 113px;
+  padding-top: 126px;
 }
 
 @media (max-width: 1366px) {
@@ -161,16 +163,23 @@
   }
 
   .header {
-    margin: 0 0 38px 77px;
+    margin: 0 0 33px 77px;
     padding: 2px 0 0;
     display: flex;
     justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 38px;
+    margin-left: -2px;
+    background: top right no-repeat url('img/logo.svg');
   }
 
   .menu {
     display: flex;
     align-items: center;
     margin: 46px 81px 0 0;
+    max-width: 330px;
   }
 
   .menu__item {
@@ -191,7 +200,8 @@
   }
 
   .main__title {
-    margin-top: 30px;
+    margin-top: 28px;
+    margin-left: -2px;
     font: bold 50px 'pt_serifbold', arial, helvetica, sans-serif;
     letter-spacing: 0;
     max-width: 490px;
@@ -199,8 +209,9 @@
 
   .main__descrip {
     font: 18px "Roboto", arial, helvetica, sans-serif;
-    margin-top: 32px;
+    margin-top: 38px;
     margin-bottom: 55px;
+    margin-left: -1px;
     max-width: 380px;
     letter-spacing: 0;
   }
@@ -210,7 +221,7 @@
     font: 14px "Roboto", arial, sans-serif;
     color: #fff;
     background: #0056ec;
-    padding: 14px 21px;
+    padding: 14px 21px 13px 22px;
     margin-left: 0;
     margin-right: 5px;
     text-decoration: none;
@@ -223,7 +234,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 21px;
+    padding-top: 20px;
   }
 }
 
@@ -233,14 +244,14 @@
   }
 
   .header {
-    margin: 0 0 33px 3px;
+    margin: 2px 0 33px 6px;
     padding: 0;
   }
 
   .menu {
     display: flex;
     align-items: center;
-    margin: 48px 11px 0 0;
+    margin: 47px 11px 0 0;
   }
 
   .menu__item {
@@ -264,17 +275,18 @@
     font: bold 50px/64px 'pt_serifbold', arial, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-top: 30px;
-    margin-left: 2px;
+    margin-top: 26px;
+    margin-left: 4px;
     letter-spacing: 0;
   }
 
   .main__descrip {
     font: 18px/20px "Roboto", arial, helvetica, sans-serif;
-    margin-top: 41px;
-    margin-bottom: 58px;
+    margin-top: 43px;
+    margin-bottom: 56px;
+    margin-left: 4px;
     max-width: 380px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
   }
 
   .main__button {
@@ -294,7 +306,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 11px;
+    padding-top: 10px;
   }
 }
 
@@ -304,7 +316,7 @@
   }
 
   .header {
-    margin: 22px 0 33px 0;
+    margin: 22px 0 28px 0;
     padding: 0;
   }
 
@@ -324,7 +336,7 @@
     align-items: center;
     position: fixed;
     margin-top: 12px;
-    margin-left: 306px;
+    margin-left: 308px;
     top: 20px;
     left: 20px;
     width: 25px;
@@ -363,11 +375,12 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 175px 0;
+    padding: 172px 0 0 26px;
     list-style: none;
     text-align: center;
     background-color: #e5e5e5;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+    border: dashed 1px red;
   }
 
   .menu__item {
@@ -375,7 +388,7 @@
     margin-right: 0;
     padding: 12.5px 24px;
     color: #333;
-    font: 600 30px/35px 'Roboto', sans-serif;
+    font: 600 30px/33px 'Roboto', sans-serif;
     text-decoration: none;
   }
 
@@ -414,14 +427,15 @@
   }
 
   .main__title {
-    margin-top: 32px;
-    padding-left: 1px;
-    font: bold 32px pt_serifregular, arial, helvetica, sans-serif;
+    margin-top: 33px;
+    padding-left: 0;
+    font: bold 32px/40px pt_serifregular, arial, helvetica, sans-serif;
     letter-spacing: 0;
+    border: dashed 1px red;
   }
 
   .main__descrip {
-    margin-bottom: 36px;
+    margin-bottom: 37px;
     max-width: 250px;
     font: 500 16px "Roboto", arial, helvetica, sans-serif;
     margin-left: 22px;
