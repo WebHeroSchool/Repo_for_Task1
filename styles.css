@@ -29,11 +29,6 @@
   }
 }
 
-.main__title {
-  animation: blow .8s  cubic-bezier(.5, .2, .3, 1.0);
-  animation-iteration-count: 1;
-}
-
 .menu {
   display: flex;
   align-items: center;
@@ -109,6 +104,8 @@
   font-size: 66px;
   margin-bottom: 20px;
   margin-top: 46px;
+  animation: blow .8s  cubic-bezier(.5, .2, .3, 1.0);
+  animation-iteration-count: 1;
 }
 
 .main__title-text_highlight {
@@ -126,7 +123,7 @@
 
 @keyframes radial-pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(155,187,253);
+    box-shadow: 0 0 0 0 rgba(155, 187, 253);
   }
 
   100% {
