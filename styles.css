@@ -154,7 +154,7 @@
   padding-top: 126px;
 }
 
-@media  (min-width: 1366px) and (max-width: 1919px) {
+@media (min-width: 1366px) and (max-width: 1919px) {
   .wrapper {
     width: 90%;
     border: dashed 1px red;
@@ -164,7 +164,7 @@
     padding: 10% 60% 20% 1%;
     background-position-x: 100%;
     background-position-y: 20%;
-    background-size: 60%
+    background-size: 60%;
   }
 
   .main__title {
@@ -262,7 +262,7 @@
   }
 }
 
-@media  (min-width: 1025px) and (max-width: 1365px) {
+@media (min-width: 1025px) and (max-width: 1365px) {
   .wrapper {
     width: 70%;
   }
@@ -272,7 +272,7 @@
     padding: 10% 45% 20% 1%;
     background-position-x: 100%;
     background-position-y: 20%;
-    background-size: 55%
+    background-size: 55%;
   }
 
   .main__title {
@@ -358,7 +358,7 @@
   }
 }
 
-@media  (min-width: 766px) and (max-width: 1023px) {
+@media (min-width: 766px) and (max-width: 1023px) {
   .wrapper {
     width: 70%;
   }
